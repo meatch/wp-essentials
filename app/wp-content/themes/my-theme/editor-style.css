@@ -1,0 +1,81 @@
+/*-------------------------------------
+||
+|| Wordpress Editor Styles
+||
+-------------------------------------*/
+/*-------------------------------------
+| Font Imports
+-------------------------------------*/
+
+/*-------------------------------------
+| Body
+-------------------------------------*/
+body { font-family: Helvetica, Arial, sans-serif; color: #999; }
+h1, h2, h3, h4, h5, h6, .font-primary { font-family: 'Oswald', sans-serif; color: #000; }
+h1, h2, h3, h4, h5, h6 { margin: 20px 0px 0px; }
+
+h1:first-child, .h1:first-child { margin-top: 0px; }
+h2:first-child, .h2:first-child { margin-top: 0px; }
+h3:first-child, .h3:first-child { margin-top: 0px; }
+h4:first-child, .h4:first-child { margin-top: 0px; }
+h5:first-child, .h5:first-child { margin-top: 0px; }
+h6:first-child, .h6:first-child { margin-top: 0px; }
+h6:first-child, .h6:first-child { margin-top: 0px; }
+
+
+/*-------------------------------------
+| headings
+-------------------------------------*/
+h1, .h1 {	font-size: 30px; font-weight: 900; 	}
+h2, .h2 {	font-size: 20px; font-weight: 900; 	}
+h3, .h3 {	font-size: 18px; font-weight: 700; 	}
+h4, .h4 {	font-size: 14px; font-weight: 400; 	}
+h5, .h5 {	font-size: 12px; font-weight: 300; 	}
+h6, .h6 {	font-size: 10px; font-weight: 100; 	}
+
+
+/*-------------------------------------
+| Paragraphs
+-------------------------------------*/
+p, .p 	{	font-size: 13px; font-weight: normal; margin: 20px 0px 0px; }
+p:first-of-type, .p:first-of-type { margin-top: 0px; }
+
+a { color:#0e321b; }
+a:hover, a:focus, a:active { color:#820307; text-decoration: none; }
+
+
+/*-------------------------------------
+| Case
+-------------------------------------*/
+.case-none  	{ text-transform: none; }
+.case-upper  	{ text-transform: uppercase; }
+.case-lower  	{ text-transform: lowercase; }
+.case-title  	{ text-transform: capitalize; }
+
+/*-------------------------------------
+| Keep width closer to main website
+-------------------------------------*/
+#tinymce {
+	max-width: 580px;
+	margin: 10px 20px 50px;
+}
+
+/*-------------------------------------
+| Floating Images
+-------------------------------------*/
+.image-right {
+	clear: both;
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.image-left {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.clear-element {
+	display: block;
+	clear: both;
+}

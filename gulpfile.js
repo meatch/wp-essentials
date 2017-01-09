@@ -1,9 +1,17 @@
 /*-------------------------------------
+|
+| Gulp
+| a. Mitch Gohman
+| v. 1.0.0
+| d. 2016.12.10
+|
+-------------------------------------*/
+/*-------------------------------------
 | Config
 -------------------------------------*/
 // Assets e.g. css, js, images and fonts
-var cssDir = 'assets/css/';
-var jsDir = 'assets/js/';
+var cssDir = 'app/wp-content/themes/tca/assets/css/';
+var jsDir = 'app/wp-content/themes/tca/assets/js/';
 
 // Which Git Server (e.g. production || staging)
 var remoteRepo = 'staging';
@@ -18,6 +26,26 @@ var sassOptions = {
 	errLogToConsole: true,
 	outputStyle: 'expanded'
 };
+
+/*-------------------------------------
+| Install Dependencies - NPM
+
+npm install gulp  --save-dev
+npm install gulp-watch --save-dev
+npm install gulp-sass  --save-dev
+npm install gulp-autoprefixer  --save-dev
+npm install gulp-sourcemaps  --save-dev
+npm install gulp-if  --save-dev
+npm install gulp-uglify  --save-dev
+npm install gulp-cssnano  --save-dev
+npm install run-sequence  --save-dev
+npm install gulp-rename  --save-dev
+npm install gulp-git  --save-dev
+npm install yargs  --save-dev
+npm install gulp-plumber --save-dev
+npm install gulp-connect-php --save-dev
+
+-------------------------------------*/
 
 /*-------------------------------------
 | Dependencies
@@ -51,7 +79,6 @@ var rename = require('gulp-rename'); // rename a string/filename
 
 //capture argument flags and use in gulp commands (e.g. -m, -al) :: converts to argv obj var (e.g. argv.m, argv.al)
 var argv = require('yargs').argv;
-
 
 /*-------------------------------------
 | Convert SCSS to CSS, Sourcemaps, Autoprefixer, and Minify (uglify)
