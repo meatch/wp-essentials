@@ -10,8 +10,8 @@
 | Config
 -------------------------------------*/
 // Assets e.g. css, js, images and fonts
-var cssDir = 'app/wp-content/themes/tca/assets/css/';
-var jsDir = 'app/wp-content/themes/tca/assets/js/';
+var cssDir = 'public_html/wp-content/themes/tca/assets/css/';
+var jsDir = 'public_html/wp-content/themes/tca/assets/js/';
 
 // Which Git Server (e.g. production || staging)
 var remoteRepo = 'staging';
@@ -155,7 +155,7 @@ gulp.task('gitsend', function() {
 -------------------------------------*/
 gulp.task('serve', function() {
 	connect.server({
-		base: './app',
+		base: './public_html',
 		port: 8000,
 		hostname: 'localhost',
 		open: true
