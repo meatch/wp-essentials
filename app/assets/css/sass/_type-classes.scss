@@ -1,0 +1,78 @@
+/*-------------------------------------
+| Foundational
+-------------------------------------*/
+h1, h2, h3, h4, h5, h6, p { margin: 0px 0px 15px; }
+
+/*-------------------------------------
+| Typography Classes
+-------------------------------------*/
+.line100 { line-height: 1.00em; }
+.line125 { line-height: 1.25em; }
+.line150 { line-height: 1.50em; }
+.line200 { line-height: 2.00em; }
+
+.quiet { color: #999999; }
+.loud  { color: #333333; }
+
+.italic 	{ font-style: italic; }
+
+.light   	{ font-weight: 100; }
+.thin   	{ font-weight: 300; }
+.normal   	{ font-weight: 400; }
+.medium   	{ font-weight: 500; }
+.bold   	{ font-weight: 700; color: #999999; }
+.ultra   	{ font-weight: 900; color: #999999; }
+
+/*-------------------------------------
+| Margins
+-------------------------------------*/
+.margin-top 	{ margin-top: 20px; }
+.margin-bottom 	{ margin-bottom: 20px; }
+.margin-both 	{ margin-top: 20px;  margin-bottom: 20px; }
+
+/*-------------------------------------
+| Alignment
+-------------------------------------*/
+.align-left 	{ text-align: left; 	}
+.align-center 	{ text-align: center; 	}
+.align-right 	{ text-align: right; 	}
+.align-justify 	{ text-align: justify; 	}
+
+.inline			{ display: inline; 			}
+.block			{ display: block; 			}
+.inline-block	{ display: inline-block; 	}
+
+.block-center 	{ margin-left: auto; margin-right: auto; 	}
+.block-right 	{ margin-left: auto; margin-right: 0px; 	}
+.block-left 	{ margin-left: 0px; margin-right: auto; 	}
+
+
+/*-------------------------------------
+| Floats
+-------------------------------------*/
+.fl { float: left; }
+.fr { float: right; }
+.cb { clear: both; }
+
+/*-------------------------------------
+| Runaround
+-------------------------------------*/
+.runr { margin: 0px 20px 20px 0px; }
+.runl { margin: 0px 0px 20px 20px; }
+
+
+/*-------------------------------------
+| Alerts
+-------------------------------------*/
+.alert { margin: 20px 0px; }
+
+/*-------------------------------------
+| Phone Link Management
+-------------------------------------*/
+span.gc-cs-link, /*google voice plugin*/
+.phone-sans-link /*in case we want to add a class*/
+{
+	text-decoration: none;
+	color: inherit;
+}
+

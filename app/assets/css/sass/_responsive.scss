@@ -1,0 +1,39 @@
+$sm-width: 768px;
+$md-width: 992px;
+$lg-width: 1200px;
+
+/*-------------------------------------
+| Media Quires
+-------------------------------------*/
+@mixin sm {
+  @media screen and (min-width: #{$sm-width}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media screen and (min-width: #{$md-width}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media screen and (min-width: #{$lg-width}) {
+    @content;
+  }
+}
+
+
+@mixin otl($color:red, $width:1px) {
+	outline: solid $width $color;
+}
+
+
+/*-------------------------------------
+| Repsonsive Images
+-------------------------------------*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+img.no-respond { max-width: none; }

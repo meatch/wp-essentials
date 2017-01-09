@@ -1,0 +1,39 @@
+/*-------------------------------------
+||
+|| Theme Styles
+||
+-------------------------------------*/
+$color-primary     	: #eee;
+$color-secondary	: #333;
+$color-tertiary		: #666;
+
+/*-------------------------------------
+| Imports
+-------------------------------------*/
+@import 'sass/functions_variables';
+@import 'sass/bootstrap';
+@import 'sass/responsive';
+@import 'sass/type-classes';
+
+/*-------------------------------------
+| Clearfix
+-------------------------------------*/
+body {
+	background-color: $color-secondary;
+	margin: 0px;
+	padding: 0px;
+}
+.wrapper {
+	background-color: $color-primary;
+	width: 90%;
+	min-width: 320px;
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 25px;
+}
+
+
+
+
+
+

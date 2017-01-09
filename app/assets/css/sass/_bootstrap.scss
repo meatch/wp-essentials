@@ -1,0 +1,28 @@
+input.form-control, textarea.form-control { border-radius: 0px; }
+
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.focus,
+.open .dropdown-toggle.btn-primary {
+    color: #000;
+    background-color: orange;
+	border-color: #f08b00;
+
+
+	&:hover {
+		color: #000;
+		background-color: #f08b00;
+		border-color: #f08b00;
+	}
+}
+
+.breadcrumb {
+	a {
+		color: #a20000;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
