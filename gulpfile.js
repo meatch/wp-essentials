@@ -10,8 +10,8 @@
 | Config
 -------------------------------------*/
 // Assets e.g. css, js, images and fonts
-var cssDir = 'public_html/wp-content/themes/tca/assets/css/';
-var jsDir = 'public_html/wp-content/themes/tca/assets/js/';
+var cssDir = 'public_html/wp-content/themes/my-theme/assets/css/';
+var jsDir = 'public_html/wp-content/themes/my-theme/assets/js/';
 
 // Which Git Server (e.g. production || staging)
 var remoteRepo = 'staging';
